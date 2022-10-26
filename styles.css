@@ -35,3 +35,10 @@ body{
     height: 800px;
     display: flex;
 }
+
+.card-display {
+    flex: 0 1 600px;
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    flex: 1 0 auto;
+}
