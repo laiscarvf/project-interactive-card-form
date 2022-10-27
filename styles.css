@@ -42,3 +42,9 @@ body{
     color: hsl(0, 0%, 100%);
     flex: 1 0 auto;
 }
+
+.card-details {
+    position:relative;
+    flex: 0 1 45%;
+}
+
