@@ -177,3 +177,21 @@ input .expiry, input .cvc {
     align-items: center;
     justify-content: center;
 }
+
+button {
+    all: unset;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+button:hover {
+background-color: hsl(278, 68%, 11%, 0.8);
+}
