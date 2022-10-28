@@ -136,3 +136,15 @@ input {
     border-bottom-color: hsl(249, 99%, 64%);
     border-left-color: hsl(278, 94%, 30%);
 }
+
+input::placeholder {
+    font-weight: 300;
+}
+
+#errorMsg, #card-num-error, #expiry-error, #error-cvc {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-left: 2px;
+}
