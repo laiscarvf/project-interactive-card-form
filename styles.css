@@ -213,7 +213,7 @@ background-color: hsl(278, 68%, 11%, 0.8);
     .bg-img {
         display: none;
     }
-    .bg.bg-img-xs {
+    .bg-img-xs {
         display: block;
         position: absolute;
         width: 100%;
