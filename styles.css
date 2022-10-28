@@ -171,3 +171,9 @@ input::placeholder {
 input .expiry, input .cvc {
     margin-top: 5px;
 }
+
+.card-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
