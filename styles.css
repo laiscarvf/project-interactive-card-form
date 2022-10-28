@@ -43,8 +43,10 @@ body{
 }
 
 .card-details {
-    position:relative;
+    display: flex;
     flex: 0 1 45%;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-front, .card-back {
@@ -106,6 +108,12 @@ body{
     font-size: 0.9em;
 }
 
+.expiry-divider-display {
+    bottom: 30px;
+    right: 75px;
+    font-size: 0.9em;
+}
+
 .cvc-display {
     position: absolute;
     right: 60px;
@@ -129,6 +137,14 @@ label .card-number, label .expiry-date, label .cvc {
 }
 
 input {
+    width: 350px;
+    padding: 10px 10px;
+    border: 1px solid hsl(279, 6%, 55%, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:focus {
     outline: 0px solid hsl(249, 99%, 64%);
     border-top-color: hsl(249, 99%, 64%);
     border-right-color: hsl(278, 94%, 30%);
@@ -171,11 +187,7 @@ input .expiry, input .cvc {
     margin-top: 5px;
 }
 
-.card-details {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 button {
     all: unset;
@@ -195,6 +207,8 @@ button:hover {
 background-color: hsl(278, 68%, 11%, 0.8);
 }
 
+.thank-you-hidden {display: none;}
+
 @media screen and (max-width:1024px) {
 
     .card-front {left: 75px;}
@@ -204,6 +218,7 @@ background-color: hsl(278, 68%, 11%, 0.8);
 @media screen and (max-width:768px) {
 
     body {
+        display: flex;
         flex-direction: column;
     }
     .container {
