@@ -220,38 +220,28 @@ background-color: hsl(278, 68%, 11%, 0.8);
         height: 300px;
     }
     
-    .card-front { 
-        top: 100px; 
-        z-index: 5; 
-    } 
-        
-    .card-back { 
-        top: 0px; 
-        left: 300px; 
-    } 
+    .card-front{top: 100px; z-index: 5;}   
+    .card-back{top: 0px; left: 300px;} 
     
-    .card-front-img , .card-back-img { 
-        max-width: 400px; 
-        width: 100%; 
-    }
-
-    .cvc-display {
-        top: 97px;
-        bottom: 0;
-        right: 45px;
-    }
-
-    .card-details {
-        position: relative;
-        flex: 0 1 50%;
-    }
+    .card-front-img , .card-back-img{max-width: 400px; width: 100%;}
+    .cvc-display{top: 97px; bottom: 0; right: 45px;}
+    .card-details{position: relative; flex: 0 1 50%;}
 }
 
 @media screen and (max-width:425px) {
-   .bg-img-xs{height: 250px;}
-   .card-back-img, .card-front-img{max-width: 300px;}
-   .card-back{left: 100px;}
-   .card-front{top: 100px; left: 30px;} 
+
+.bg-img-xs{height: 250px;}
+.card-back-img, .card-front-img{max-width: 300px;}
+.card-back{left: 100px;}
+.card-front{top: 100px; left: 30px;}
+.card-number-display{font-size: 14px; bottom: 60px; letter-spacing: 4px;}
+.card-holder-display{font-size: 12px;}
+.expiry-month-display, .expiry-year-display, .expiry-divider-display{
+    font-size: 12px;
+} 
+.expiry-year-display{right: 38px;}
+.cvc-display{font-size: 12px; bottom: unset; top: 75px; right: 38px;}
+.card-details{position: relative; flex: 0 1 65%;}
 }
 
 
