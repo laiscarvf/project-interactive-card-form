@@ -112,3 +112,27 @@ body{
     right: 60px;
     bottom: 117px;
 }
+
+form {
+    height: 350px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+label .card-number, label .expiry-date, label .cvc {
+    margin-top: 30px;
+}
+
+input {
+    outline: 0px solid hsl(249, 99%, 64%);
+    border-top-color: hsl(249, 99%, 64%);
+    border-right-color: hsl(278, 94%, 30%);
+    border-bottom-color: hsl(249, 99%, 64%);
+    border-left-color: hsl(278, 94%, 30%);
+}
