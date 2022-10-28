@@ -196,13 +196,13 @@ button:hover {
 background-color: hsl(278, 68%, 11%, 0.8);
 }
 
-@media screen and (max-widht:1024px) {
+@media screen and (max-width:1024px) {
 
     .card-front {left: 75px;}
     .card-back {left: 140px;}
 }
 
-@media screen and (max-widht:768px) {
+@media screen and (max-width:768px) {
 
     body {
         flex-direction: column;
@@ -245,6 +245,13 @@ background-color: hsl(278, 68%, 11%, 0.8);
         position: relative;
         flex: 0 1 50%;
     }
+}
+
+@media screen and (max-width:425px) {
+   .bg-img-xs{height: 250px;}
+   .card-back-img, .card-front-img{max-width: 300px;}
+   .card-back{left: 100px;}
+   .card-front{top: 100px; left: 30px;} 
 }
 
 
