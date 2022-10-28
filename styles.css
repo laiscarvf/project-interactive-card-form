@@ -148,3 +148,7 @@ input::placeholder {
     padding-top: 2px;
     padding-left: 2px;
 }
+
+#expiry-error, #error-cvc {
+    letter-spacing: 1px;
+}
