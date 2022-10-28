@@ -152,3 +152,18 @@ input::placeholder {
 #expiry-error, #error-cvc {
     letter-spacing: 1px;
 }
+
+.flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.flex .expiry {
+    width: 90px;
+    margin-right: 5px;
+}
+
+.flex .cvc {
+    width: 135px;
+}
