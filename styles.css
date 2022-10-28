@@ -240,6 +240,11 @@ background-color: hsl(278, 68%, 11%, 0.8);
         bottom: 0;
         right: 45px;
     }
+
+    .card-details {
+        position: relative;
+        flex: 0 1 50%;
+    }
 }
 
 
