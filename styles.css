@@ -167,3 +167,7 @@ input::placeholder {
 .flex .cvc {
     width: 135px;
 }
+
+input .expiry, input .cvc {
+    margin-top: 5px;
+}
